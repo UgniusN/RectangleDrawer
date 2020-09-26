@@ -1,6 +1,6 @@
 package lt.internship;
 
-public class RectangleBuilder {
+public class RectangleBuilder implements Builder{
     private RectanglePartBuilder rectanglePartBuilder = new RectanglePartBuilder();
 
     public String build(int width, int height) {
